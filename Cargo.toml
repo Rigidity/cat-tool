@@ -1,0 +1,15 @@
+[package]
+name = "cat2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+bip39 = "2.0.0"
+chia = "0.12.0"
+chia-wallet-sdk = { git = "https://github.com/Rigidity/chia-wallet-sdk", rev = "c67c153796e66d3c2bb9543772a935fd0dae8170" }
+clap = { version = "4.5.16", features = ["derive"] }
+colored = "2.1.0"
+homedir = "0.3.3"
+rayon = "1.10.0"
+tokio = { version = "1.39.3", features = ["full"] }
