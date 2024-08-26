@@ -2,6 +2,12 @@
 
 This tool helps you issue and melt CATs by connecting to a full node peer and using your wallet keys to find and spend XCH and CAT coins.
 
+## Disclaimer
+
+This should primarily be used on testnet11. The code has not been tested sufficiently enough to be used on mainnet.
+
+If you do decide to use it on mainnet, it's at your own risk and I would recommend only having the amount of XCH in the wallet that you plan on using to issue the CAT (and fees).
+
 ## Installation
 
 You'll first need to [install Rust](https://rustup.rs).
