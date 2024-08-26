@@ -9,7 +9,7 @@ You'll first need to [install Rust](https://rustup.rs).
 Then, run the following command:
 
 ```bash
-cargo install cat2
+cargo install --git https://github.com/Rigidity/cat-tool
 ```
 
 ## Usage
